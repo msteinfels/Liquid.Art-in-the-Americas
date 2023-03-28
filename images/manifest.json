@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4000,
+    "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr/canvas/",
+    "label" : {
+      "none" : [ "RS63599_56-8-17566f_001_cr" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 82
+            }, {
+              "width" : 250,
+              "height" : 163
+            }, {
+              "width" : 500,
+              "height" : 326
+            }, {
+              "width" : 1000,
+              "height" : 651
+            }, {
+              "width" : 2000,
+              "height" : 1302
+            }, {
+              "width" : 4000,
+              "height" : 2603
+            } ],
+            "profile" : "level0",
+            "width" : 4000,
+            "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2603
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2603
+        },
+        "target" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS63599_56-8-17566f_001_cr/canvas/"
+      } ]
+    } ],
+    "height" : 2603
+  }, {
     "width" : 2869,
     "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS13111_46-22-16382_001/canvas/",
     "label" : {
