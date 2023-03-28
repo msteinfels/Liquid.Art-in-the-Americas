@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4000,
+    "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/canvas/",
+    "label" : {
+      "none" : [ "Postcard" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 125,
+              "height" : 82
+            }, {
+              "width" : 250,
+              "height" : 163
+            }, {
+              "width" : 500,
+              "height" : 326
+            }, {
+              "width" : 1000,
+              "height" : 651
+            }, {
+              "width" : 2000,
+              "height" : 1302
+            }, {
+              "width" : 4000,
+              "height" : 2603
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 4000,
+            "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2603
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4000,
+          "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2603
+        },
+        "target" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/canvas/"
+      } ]
+    } ],
+    "height" : 2603
+  }, {
     "width" : 2869,
     "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/ShakerDesk/canvas/",
     "label" : {
