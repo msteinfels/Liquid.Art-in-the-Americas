@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 90,
+    "height" : 110
+  }, {
+    "width" : 180,
+    "height" : 220
+  }, {
+    "width" : 359,
+    "height" : 439
+  }, {
+    "width" : 718,
+    "height" : 878
+  }, {
+    "width" : 1435,
+    "height" : 1755
+  }, {
+    "width" : 2869,
+    "height" : 3509
+  } ],
+  "profile" : "level0",
+  "width" : 2869,
+  "id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/RS13111_46-22-16382_001",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3509
+}
