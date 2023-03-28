@@ -1,80 +1,80 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/manifests/shakers.json",
-  "@type" : "sc:Manifest",
-  "label" : "Enfield Shakers",
-  "metadata" : [ {
-    "label" : "Label",
-    "value" : "Value"
-  } ],
-  "description" : [ {
-    "@value" : "[Click to edit description]",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Enfield Shakers, names not yet known.",
-  "sequences" : [ {
-    "@id" : "http://f0c1df87-03fc-4b17-b905-c3964c95832e",
-    "@type" : "sc:Sequence",
-    "label" : "Normal Sequence",
-    "canvases" : [ {
-      "@id" : "http://e32b3139-59f2-452d-b11c-9cc50b772c5c",
-      "@type" : "sc:Canvas",
-      "label" : "Desk or Sewing Table",
-      "height" : 3509,
-      "width" : 2869,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://35f21b9e-5657-4448-9825-a3f999b20933",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/ShakerDesk/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/ShakerDesk",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/manifests/shakers.json",
+    "@type" : "sc:Manifest",
+    "label" : "Enfield Shakers",
+    "metadata" : [ {
+      "label" : "Label",
+      "behavior" : "paged"
+    } ],
+    "description" : [ {
+      "@value" : "[Click to edit description]",
+      "@language" : "en"
+    } ],
+    "license" : "https://creativecommons.org/licenses/by/3.0/",
+    "attribution" : "Enfield Shakers, names not yet known.",
+    "sequences" : [ {
+      "@id" : "http://f0c1df87-03fc-4b17-b905-c3964c95832e",
+      "@type" : "sc:Sequence",
+      "label" : "Normal Sequence",
+      "canvases" : [ {
+        "@id" : "http://e32b3139-59f2-452d-b11c-9cc50b772c5c",
+        "@type" : "sc:Canvas",
+        "label" : "Desk or Sewing Table",
+        "height" : 3509,
+        "width" : 2869,
+        "images" : [ {
+          "@context" : "http://iiif.io/api/presentation/2/context.json",
+          "@id" : "http://35f21b9e-5657-4448-9825-a3f999b20933",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:painting",
+          "resource" : {
+            "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/ShakerDesk/full/full/0/default.jpg",
+            "@type" : "dctypes:Image",
+            "format" : "image/jpeg",
+            "service" : {
+              "@context" : "http://iiif.io/api/image/2/context.json",
+              "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/ShakerDesk",
+              "profile" : "http://iiif.io/api/image/2/level0.json"
+            },
+            "height" : 3509,
+            "width" : 2869
           },
-          "height" : 3509,
-          "width" : 2869
-        },
-        "on" : "http://e32b3139-59f2-452d-b11c-9cc50b772c5c"
-      } ],
-      "related" : "",
-      "metadata" : [ {
-        "label" : "Description",
-        "value" : "This is a wooden desk or sewing table. It is approximately forty-six inches high, with four large and six small drawers. Two side panels fold down revealing shelves behind small drawers. The design is simple and clean."
+          "on" : "http://e32b3139-59f2-452d-b11c-9cc50b772c5c"
+        } ],
+        "related" : "",
+        "metadata" : [ {
+          "label" : "Description",
+          "value" : "This is a wooden desk or sewing table. It is approximately forty-six inches high, with four large and six small drawers. Two side panels fold down revealing shelves behind small drawers. The design is simple and clean."
+        } ]
+      }, {
+        "@id" : "http://7155323b-6827-4c36-b03b-bcea0e7565f8",
+        "@type" : "sc:Canvas",
+        "label" : "Enfield Shaker Postcard",
+        "height" : 2603,
+        "width" : 4000,
+        "images" : [ {
+          "@context" : "http://iiif.io/api/presentation/2/context.json",
+          "@id" : "http://491af904-a5f5-4905-ba66-a394615b1c9f",
+          "@type" : "oa:Annotation",
+          "motivation" : "sc:painting",
+          "resource" : {
+            "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/full/full/0/default.jpg",
+            "@type" : "dctypes:Image",
+            "format" : "image/jpeg",
+            "service" : {
+              "@context" : "http://iiif.io/api/image/2/context.json",
+              "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard",
+              "profile" : "http://iiif.io/api/image/2/level0.json"
+            },
+            "height" : 2603,
+            "width" : 4000
+          },
+          "on" : "http://7155323b-6827-4c36-b03b-bcea0e7565f8"
+        } ],
+        "related" : ""
       } ]
-    }, {
-      "@id" : "http://7155323b-6827-4c36-b03b-bcea0e7565f8",
-      "@type" : "sc:Canvas",
-      "label" : "Enfield Shaker Postcard",
-      "height" : 2603,
-      "width" : 4000,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://491af904-a5f5-4905-ba66-a394615b1c9f",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://msteinfels.github.io/Liquid.Art-in-the-Americas/images/Postcard",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 2603,
-          "width" : 4000
-        },
-        "on" : "http://7155323b-6827-4c36-b03b-bcea0e7565f8"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ ],
-  "viewingDirection" : "left-to-right"
-}
+    } ],
+    "structures" : [ ],
+    "viewingDirection" : "left-to-right"
+  }
